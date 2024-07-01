@@ -49,9 +49,9 @@ function checkAnswer() {
     if(isCorrect){
         alert("Hey! You got it right! :D");
     } else {
-        alert(`Awww... you answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}`)
+        alert(`Awww... you answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`)
     }
-
+    runGame(calculatedAnswer[1])
 }
 /**
  *  Gets the operands (the numbers) and the operator (plus, minus etc)
